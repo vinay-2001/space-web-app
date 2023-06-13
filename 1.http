@@ -1,0 +1,31 @@
+GET http://localhost:4000/user-api/getusers
+###
+
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "username":"vinay",
+    "password":"geetu"
+}
+###
+
+POST http://localhost:4000/user-api/createuser
+Content-Type:application/json
+
+{
+    "username":"durga",
+    "password":"Durga123",
+    "email":"durgaprasadsiddula209@gmail.com"
+}
+
+###
+
+# PUT http://localhost:4000/userapi/update-user
+# Content-Type: application/json
+
+# {
+#     "id":1,
+#     "name":"vinay kumar",
+#     "age":21
+# }
